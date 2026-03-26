@@ -1,0 +1,23 @@
+# Termux System Files
+.bash_history
+.zsh_history
+.ssh/
+.gnupg/
+.termux/
+
+# Personal/Sensitive Data
+*.gpg
+*.key
+*.pem
+*.token
+secrets.txt
+
+# Python/Node/Development Junk
+__pycache__/
+node_modules/
+*.pyc
+.env
+.venv/
+
+# Git internals (if nesting repos)
+.git/
