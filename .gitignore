@@ -1,23 +1,58 @@
-# Termux System Files
-.bash_history
-.zsh_history
+# System and Environment
+.bashrc
+.bash_aliases
+.gitconfig
+.Xauthority
+.android/
+.cache/
+.config/
+.local/
+storage/
+
+# Credentials and Sensitive Logs
+*.txt
+*.log
+*.cookie
+*history
+.secure_vault/
+secure_docs/
+Security_Logs/
+.alpine-smime/
+.pine-passfile
+
+# Tool Folders and Dependencies
+node_modules/
+.npm/
+.bundle/
+.cargo/
+bin/
+metasploit-framework/
+sqlmap*/
+wireshark-termux/
+xmrig/
+exploitdb/
+juice-shop/
+DVWA-master/
+
+# Exclude all sub-projects (Manage these as separate repos)
+CardPwn/
+GoblinWordGenerator/
+Mobile_IDE_Repo/
+X-osint/
+
+# Security and Credentials
 .ssh/
 .gnupg/
-.termux/
-
-# Personal/Sensitive Data
-*.gpg
-*.key
+.msmtprc
 *.pem
-*.token
-secrets.txt
+*.gpg
+.google-cookie
+.termux/
+.vnc/
 
-# Python/Node/Development Junk
-__pycache__/
-node_modules/
-*.pyc
-.env
-.venv/
-
-# Git internals (if nesting repos)
-.git/
+# Additional Tooling
+.msf4/
+.sys_update
+.clean_gems/
+.vim/
+go/
